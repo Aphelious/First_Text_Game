@@ -39,7 +39,7 @@ def empty_space_or_not():
         display('The path seems quiet here, but there is a dark chill in the air...')
         step += 1
         return True
-    else: False
+    return False
 
 
 #############
